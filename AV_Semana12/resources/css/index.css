@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {	
+	background-color: brown;
+	font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 14px;    
+    color: black;	
+}
+h1, h2, h3, h4, h5 {
+    color: navy;
+}
+input, textarea {
+    border-radius: 5px;    
+}
+input:focus, textarea:focus {    
+    border-color: orange;
+    box-shadow: 0 0 5px yellow;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+#divBody {
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	left: 50%;
+	top: 100px;
+	margin-left: -350px;
+	background-color: lightyellow;
+	border-radius: 10px;
+	text-align: center;
+	padding: 50px;	
+}
+#divContent {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 50%;
+	margin-left: -200px;
+	overflow: auto;
+}
